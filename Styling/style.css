@@ -219,6 +219,9 @@ border-radius: 5px;
         width: 100px; 
         height: 100px;   
     }
+    .result p{
+        font-size: 22px;
+    }
 
     .scores {
         margin-top: 40px; 
@@ -264,14 +267,14 @@ border-radius: 5px;
         height: 50px;
     }
     .top-heading h1{
-        font-size: 20px;
-        margin-left: 22px;
+        font-size: 22px;
+        margin-left: 20px;
     }
     .mode-logo {
         width: 8px;
         height: 8px;
-        top: 16px;
-        left: 3px;
+        top: 12px;
+        left: 10px;
     }
     .mode-logo img{
         width: 14px;
@@ -286,10 +289,16 @@ border-radius: 5px;
         font-size: 14px;
     }
     .footer{
-        height: 40px;
+        height: 35px;
+    }
+    .footer a,p{
+        font-size: 12px;
     }
     .footer a{
-        margin-bottom: 8px;
+        margin-bottom: 5px;
+    }
+    .result p{
+        font-size: 20px;
     }
 
 } 
