@@ -1,0 +1,256 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.top-heading{
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    justify-content: center;
+    background-color: black;
+}
+.top-heading h1{
+    color: antiquewhite;
+}
+
+.mode-logo{
+    width: 50px;
+    background-color: rgb(58, 53, 53);
+    display: inline-block;
+    padding: 12px;
+    border: 1px solid white;
+    border-radius: 5px;
+    position: fixed;
+    top: 6px;
+    right: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.mode-logo img{
+    width: 20px;
+}
+.Selection-pane{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 80px;
+    
+
+}
+.Game-logo{
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;
+    margin-right: 18px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid white
+}
+.Game-logo:hover{
+    border: 1px solid black;
+    transition: 0.3s ease-out;
+    filter: opacity(0.8);
+    cursor: pointer;
+}
+.Game-logo img {
+    width: 130px;
+    height: 130px;
+    object-fit:cover;
+    border-radius: 50%;
+}
+.scores{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 80px;
+    margin-bottom: 50px;
+    align-content: space-between;
+}
+.user-score,.Comp-score{
+padding: 10px;
+background-color: rgb(199, 182, 182);
+width: 100px;
+height: 60px;
+border: 3px solid white;
+border-radius: 5px;
+}
+.Comp-score{
+    width: 120px;
+    margin-left: 15px;
+}
+
+#U-score ,#C-score{
+    display: inline-block;
+    color: brown;
+}
+.scores p{
+    font-size: 16px;
+    font-weight:600;
+}
+.result{
+    margin: auto;
+    background-color: rgb(216, 124, 62);
+    text-align: center;
+    width: 500px;
+    height: 30px;
+    padding: 10px;
+    border-radius: 4px;
+    
+    
+}
+.result p{
+    font-size: 24px;
+    font-weight: bold;
+    color: antiquewhite;
+    
+}
+
+.footer{
+    position: fixed;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background-color: cadetblue;
+    height: 30px;
+    padding: 10px;
+    flex-direction: column;
+
+}
+.footer p{
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+.footer a{
+    text-decoration: none;
+    margin-bottom: 3px;
+}
+.footer a:hover{
+    text-decoration: underline;
+}
+
+
+
+/* Class List for JS  */
+
+
+.New-style1{
+  border-bottom: 3px solid red;
+} 
+.New-style2{
+    border-bottom: 3px solid green;
+  } 
+
+  
+.newresultboxonloss{
+    margin: auto;
+    background-color: rgb(250, 0, 0);
+    text-align: center;
+    width: 500px;
+    height: 30px;
+    padding: 10px;
+    border-radius: 4px;
+    
+    
+}
+.newresultboxonwin{
+    margin: auto;
+    background-color: green;
+    text-align: center;
+    width: 500px;
+    height: 30px;
+    padding: 10px;
+    border-radius: 4px;
+    
+    
+}  
+
+
+.Dark-theme{
+    background-color: black;
+    color: white;
+}
+
+
+
+/* Responsiveness  */
+
+@media screen and (max-width: 768px) {
+    .top-heading {
+        padding: 5px; 
+       height: 50px;
+       width: 100%;
+    }
+    .top-heading h1{
+        font-size: 26px;
+        margin-left: 18px;
+    }
+
+    .mode-logo {
+        width: 10px;
+        height: 10px;
+        top: 12px; 
+        left: 8px; 
+        border-radius: 50%;
+    }
+    .mode-logo img{
+        width: 16px;
+        height: 16px;
+    }
+
+    .Selection-pane {
+        margin-top: 60px; 
+        margin-bottom: 50px;
+        margin-left: 8px;
+    }
+
+    .Game-logo {
+        width: 90px; 
+        height: 100px; 
+        
+    }
+    .Game-logo img {
+        width: 100px; 
+        height: 100px;   
+    }
+
+    .scores {
+        margin-top: 40px; /* Adjust spacing */
+        margin-bottom: 60px; /* Adjust spacing */
+    }
+
+    .user-score,
+    .Comp-score {
+        width: 120px; /* Adjust size */
+        height: 45px; /* Adjust size */
+    }
+
+    #U-score,
+    #C-score {
+        font-size: 25px; /* Adjust font size */
+    }
+
+    .result {
+        width: 300px; /* Adjust size */
+        height: 30px; /* Adjust size */
+    }
+
+    .footer {
+        height: 40px; /* Adjust size */
+        padding: 5px;
+        width: 100%; /* Adjust padding */
+    }
+    .footer p{
+        margin-top: 10px;
+    }
+    .footer a{
+        margin-bottom: 5px;
+    }
+}
+
