@@ -196,7 +196,7 @@ border-radius: 5px;
         width: 10px;
         height: 10px;
         top: 12px; 
-        left: 8px; 
+        left: 12px; 
         border-radius: 50%;
     }
     .mode-logo img{
@@ -260,15 +260,35 @@ border-radius: 5px;
 
 
 @media screen and (max-width: 360px){
+    .top-heading {
+        height: 52px;
+    }
     .top-heading h1{
         font-size: 24px;
-        margin-left: 18px;
+        margin-left: 22px;
     }
+    .mode-logo {
+        width: 8px;
+        height: 8px;
+        top: 15px;
+    }
+    .mode-logo img{
+        width: 14px;
+        height: 14px;
+    }
+
+
     .user-score p{
         font-size: 14px;
     }
     .Comp-score  p{
         font-size: 14px;
+    }
+    .footer{
+        height: 45px;
+    }
+    .footer a{
+        margin-bottom: 10px;
     }
 
 } 
